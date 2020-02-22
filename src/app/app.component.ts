@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  filterStatus: string;
   servers = [
     {
       instanceType: 'medium',
