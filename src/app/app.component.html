@@ -3,6 +3,8 @@
     <div class="col">
       <input type="text" class="form-control" [(ngModel)]="filterStatus" />
       <hr />
+      <h3>Overall satus: {{ serverStatus | async }}</h3>
+      <hr />
       <ul class="list-group">
         <li
           class="list-group-item"
